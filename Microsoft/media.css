@@ -1,0 +1,255 @@
+
+
+@media  screen and (max-width : 1500px) {
+
+    body {
+        padding-right: 0;
+    }
+
+    
+    .icon-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        gap: 2vw;
+        padding: 8vw;
+    }
+
+    .icons-for-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width : 1200px) {
+
+    
+    body {
+        padding-right: 0;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* gap: 15rem; */
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1rem 0px;
+    }
+    
+    .whats-new {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-right: 12vw;
+    }
+
+    
+    .icon-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        gap: 2vw;
+        padding: 8vw;
+    }
+    
+    .icons-for-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    
+
+
+
+}
+
+@media screen and (max-width : 1090px) {
+
+    
+    body {
+        padding-right: 0;
+    }
+
+    
+header {
+    margin: 0;
+    padding: 0.5rem 3rem;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+    
+    .icon-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        gap: 2vw;
+        padding: 8vw;
+    }
+
+    .icons-for-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    
+
+
+
+    .game-pass-image img {
+        object-fit: cover; 
+        object-position: right;
+        
+    }
+
+
+    .after-icon-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        min-height: 100vh;
+        margin-bottom: 0;
+    }
+
+    .images-div {
+        height: 50%;
+        width: 100%;
+        /* margin-bottom: 5rem; */
+    }
+
+    .social-icons {
+        position: relative;
+        margin-top: 5rem;
+    }
+
+    
+    .footer-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        /* gap: 40vw; */
+    }
+
+     .left-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 1vw;
+        margin-right: 23vw;
+    }
+
+    
+    .info-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    footer {
+        margin-top: 5vw;
+    }
+
+}
+
+@media screen and (max-width : 1010px) {
+
+    
+    body {
+        padding-right: 0;
+    }
+
+    
+    .icon-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        gap: 2vw;
+        padding: 8vw;
+    }
+
+    
+    .icons-for-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 80%;
+    }
+
+    
+
+    
+}
+
+
+@media screen and (max-width : 650px) {
+
+
+
+    body {
+        padding-right: 0;
+    }
+
+    
+    .icon-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        gap: 2vw;
+        padding: 8vw;
+    }
+
+    
+    .icons-for-links {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 80%;
+    }
+
+    
+}
+
+
+@media screen and (max-width : 530px) {
+
+    body {
+        padding-right: 0;
+    }
+    
+    .after-icon-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25rem;
+        height: 80vw;
+        margin-bottom: 0;
+    }
+
+
+}
